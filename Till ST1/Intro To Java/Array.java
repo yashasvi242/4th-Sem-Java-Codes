@@ -2,7 +2,20 @@
 import java.util.*;
 
 // Lets learn how to declare, allocate memory and initialize array (not ArrayList)
-// note : All array in java ara dynamically allocated contigious memory (and its size can be changed overtime) thats why it is declared using 'new' keyword
+
+/* ⭐(Ques) Difference between array, list, and ArrayList in Java ?
+
+-> An array is a basic collection of fixed size that can store any declared type of
+elements. 
+
+-> The List is a dynamic collection (it means, its size can change over
+time) that is generic, so it can also store any declared type of elements.
+
+-> An ArrayList is a dynamic collection that can store various types of elements at 
+the same time, as it treats everything it stores as instances of the System.Object
+type
+
+*/
 
 class Array{
 
