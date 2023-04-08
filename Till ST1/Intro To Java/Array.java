@@ -2,6 +2,7 @@
 import java.util.*;
 
 // Lets learn how to declare, allocate memory and initialize array (not ArrayList)
+// note : All array in java ara dynamically allocated contigious memory (and its size can be changed overtime) thats why it is declared using 'new' keyword
 
 class Array{
 
