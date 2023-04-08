@@ -1,6 +1,9 @@
 import java.util.*;
 
-class Sort {
+// lets learn how to create and print a 'ArrayList'
+// note : array is different then ArrayList, where array is just a basic array with indicies, whereas ArrayList is a part of java collection frameword with methods like .add(), .iterator() etc.
+
+class ArrayList {
     public static void main(String[] args){
 
         ArrayList<String> array = new ArrayList<String>();
