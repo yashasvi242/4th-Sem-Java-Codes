@@ -12,7 +12,7 @@ public class Calculator {
     
 }
 
-// lets compile and run
+// now open the terminal and then compile and run
 PS C:\Users\Yashasvi\Downloads> javac Calculator.java
 PS C:\Users\Yashasvi\Downloads> java Calculator 10 20  // last 2 are inputs for the program 
 Sum = 30
