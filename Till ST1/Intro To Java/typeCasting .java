@@ -13,6 +13,9 @@ class New{
 		System.out.println(L);
 		System.out.println(i);
 		System.out.println(s);
+		
+		System.out.printf("%.2f\n",d);  // if we want to print till 2 decimal places
+		
 
 
 	}
@@ -28,5 +31,6 @@ class New{
 100
 100
 100
+100.00 
 
 */
