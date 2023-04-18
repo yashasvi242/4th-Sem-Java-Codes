@@ -13,8 +13,7 @@ public class MyClass {
     
     public static void main(String args[]) {
         
-        MyClass obj = new MyClass();
-        String ans = obj.getName(" class");
+        String ans = getName(" class");
         System.out.print(ans);
         
     }
