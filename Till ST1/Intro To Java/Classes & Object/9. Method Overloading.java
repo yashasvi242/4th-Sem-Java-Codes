@@ -1,8 +1,8 @@
 
 // for Method overloading
-// either change number of arguments of 2 same named functions or 
-// change type of arguments
-
+// 1. either change number of arguments of 2 same named functions or 
+// 2. change type of arguments
+// 3. or change the order of arrangement of parameters.
 class Calculate{
 
 	void sum(double a, double b, double c){
