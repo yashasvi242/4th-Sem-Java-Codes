@@ -1,3 +1,5 @@
+// This is also called type promotion
+
 class Demo{
 
 	void sum(int l, long b){ 
