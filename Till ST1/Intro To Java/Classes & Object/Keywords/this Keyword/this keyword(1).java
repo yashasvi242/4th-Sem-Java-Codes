@@ -2,6 +2,7 @@ public class Demo {
     
     // by default uninitialized 'double' has value null.
     // this stores the reference of curr object.
+    // this keyword is used mainly to solve confusion when local and global both variables have same name.
     
     Double width, height, depth;
     Demo(double w, double h, double d) {
