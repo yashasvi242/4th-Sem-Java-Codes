@@ -1,8 +1,10 @@
+/*
+- for Method overloading - when we have different methods with same name then this is called method overloading, for method overloading 
+ 1. either change number of arguments of 2 same named functions or 
+ 2. change type of arguments
+ 3. or change the order of arrangement of parameters.
 
-// for Method overloading
-// 1. either change number of arguments of 2 same named functions or 
-// 2. change type of arguments
-// 3. or change the order of arrangement of parameters.
+*/
 class Calculate{
 
 	void sum(double a, double b, double c){
