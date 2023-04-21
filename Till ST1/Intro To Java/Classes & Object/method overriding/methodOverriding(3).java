@@ -1,6 +1,7 @@
 //method overriding with access specifiers (2)
 
 // note : for inherited classes both the parent and childs should have same access specifier for same named functions and that too only 'public' and 'default'
+// note 2 : also both methods should have same return type too.
 
 class Animal{
     public void eat(){
