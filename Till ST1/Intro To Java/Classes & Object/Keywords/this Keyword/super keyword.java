@@ -2,6 +2,9 @@ class Parent{
     String name;
 }
 
+
+// note : The super keyword in Java is a reference variable which is used to refer immediate parent
+
 public class Child extends Parent{
     String name;
     public void details(){
