@@ -2,6 +2,8 @@
 // runtime polymorphism (dynamic method dispatch)
 // reference will be of parent 
 // object will be of child always.
+// dynamic method dispatch is also known as dynamic binding occur at (run time)
+// while static binding means method overloading which occur at (compiler time)
 
 class Game{
     public void type(){
