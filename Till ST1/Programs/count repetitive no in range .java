@@ -1,5 +1,8 @@
 import java.util.*;
 
+// current approach - using eleToFreq array to store freq of each digit 
+// alternative approach - using visited array to check if a digit is already visited or not 
+
 public class Main{
    
     /*  count number of repeatitive numbers from given range
