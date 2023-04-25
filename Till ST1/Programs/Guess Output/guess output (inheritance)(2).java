@@ -3,7 +3,7 @@ class A{
     String s = "CLass A";
 }
 
-class B{
+class B extends A{
     String s = "Class B";
     {
         System.out.println(super.s);
@@ -24,14 +24,12 @@ public class Main{
     }
 }
 
-
-
-
 /*
+
 Output : 
 
-CLass A 
-CLass B
-Class C 
+CLass A
+Class B
+CLass C
 
 */
