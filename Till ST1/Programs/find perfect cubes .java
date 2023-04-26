@@ -1,17 +1,23 @@
 import java.util.Currency;
 import java.util.Scanner;
 
+
 // given 'n' numbers, return the ones which are perfect cubes.
+// current approach -> using Math.cbrt()
+// alternative approach -> using a loop from 1 till num/3, and find cube roots for them 
 
 public class CheckCube {
     
     public static void main(String args[]){
         
+        //input
         System.out.print("Number Of test Cases : ");
         Scanner scn = new Scanner(System.in);
 
         int numOfTestCase = scn.nextInt();
         System.out.print("Enter all numbers : ");
+        
+        //algo
         while(numOfTestCase != 0){
 
             int num = scn.nextInt();
