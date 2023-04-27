@@ -1,0 +1,464 @@
+Q.1. What is the output of this program?
+class access{
+        public int x;
+ 	private int y;
+        void cal(int a, int b){
+            x =  a + 1;
+            y =  b;
+        }        
+    }    
+    class access_specifier {
+        public static void main(String args[])
+        {
+            access obj = new access();   
+            obj.cal(2, 3);
+            System.out.println(obj.x + " " + obj.y);     
+        }
+   }
+A) 3 3	
+B) 2 3
+C) Runtime Error	
+D) Compilation Error
+
+
+
+
+
+
+
+
+
+
+
+Q.2. Which method is used to perform some action when the object is 
+to be destroyed?
+A) finalize()	
+B) delete()
+C) main()	
+D) None of the above mentioned
+
+
+
+
+
+
+
+Q.3. What is the Output of this program?
+class Output {
+        public static void main(String args[]) 
+        {    
+             int x, y = 1;
+             x = 10;
+             if (x != 10 && x / 0 == 0)
+                 System.out.println(y);
+             else
+                 System.out.println(++y);
+        } 
+    }
+A) 1	
+B) 2
+C) Runtime error owing to division by zero	
+D) Unpredictable behaviour
+
+
+
+
+
+
+
+
+
+
+
+Q.4. What will happen when you attempt to compile and run the following code?
+int Output = 10;
+boolean b1 = false;
+if((b1 == true) && ((Output += 10) == 20))
+{
+    System.out.println("We are equal " + Output);
+}
+else
+{
+    System.out.println("Not equal! " + Output);
+}  
+A) Compilation error, attempting to perform binary comparison on logical data type.
+B) Compilation and output of "We are equal 10".
+C) Compilation and output of "Not equal! 20".
+D) Compilation and output of "Not equal! 10".
+
+
+
+
+
+
+
+
+
+
+
+Q.5. Which letters will be printed when the given program is run?
+class MyClass 
+{
+  public static void main(String[] args) 
+  {
+   B b = new C();
+   A a = b;
+   if (a instanceof A) System.out.println("A");
+   if (a instanceof B) System.out.println("B");
+   if (a instanceof C) System.out.println("C");
+   if (a instanceof D) System.out.println("D");
+  }
+} 
+class A {}
+class B extends A {}
+class C extends B {}
+class D extends C {}
+A) A, B, C will be printed.
+B) only A and B will be printed.
+C) only B will be printed.	
+D) only C will be printed.
+
+
+
+
+
+
+
+
+
+
+Q.1. What will be the output of the following program?
+class B
+{
+    static int count = 100;
+    public void increment()
+    {
+        count++;
+    }
+    public static void main(String []args)
+    {
+        B b1 = new B();
+        b1.increment();
+        B b2 = new B();
+        System.out.println(b2.count);   // line 13
+    }
+}
+A) 100	
+B) 101
+C) Error in line 13	
+D) 0
+
+
+
+
+
+
+
+
+
+
+
+Q.2. What will be the output upon the execution of the following code?
+    class Test
+    {
+      public static void main(String[] args)
+      {
+        int j = 5;
+        for (int i = 0; i< j; i++)
+        {
+          if ( i <= j-- )
+            System.out.print(  (i*j)  + " ");
+        }
+      }
+    }
+    
+A) 0 3 2	
+B) 1 2 3
+C) 0 3 4	
+D) 1 4 2
+
+
+
+
+
+
+
+
+
+
+
+Q.3. Find the output of the following code.
+class Solution{
+      Public static void main(String… argos){
+             Int x = 5;
+             x * = (3 + 7);
+             System.out.println(x);
+A) 10
+B) 22
+C) 50
+D) None 
+
+
+
+
+
+
+
+
+
+
+
+Q.4. How many objects will be created in the following?
+String a = new String(“Hello”);
+String b = new String(“Hello”);
+String c = “Hello”;
+String d = “Hello”;
+A) 2
+B) 3
+C) 4
+D) None
+
+
+
+
+
+
+
+
+
+
+
+Q.5. Select the valid declaration of a character array.
+A) char[] ch = new char[5]
+B) char[] ch = new char(5)
+C) char[] ch = new char()
+D) char[] ch = new char[]
+
+
+
+
+
+
+
+
+
+
+
+Q.1. What is the output of this program?
+class equality {
+        int x=3;
+        int y=4;
+        boolean isequal() {
+            return(x == y);  
+        } 
+    }    
+    class Output {
+        public static void main(String args[])
+        {
+            equality obj = new equality();
+            obj.x = 5;
+            obj.y = 5;
+            System.out.println(obj.isequal);        } 
+    }
+A. false	
+B. true
+C. 0	
+D. 1
+
+
+
+
+
+
+
+
+
+
+Q.2. What is the output of this program?
+class main_class {
+        public static void main(String args[])
+        {
+            int x = 9;
+            if (x == 9) { 
+                int x = 8;
+                System.out.println(x);
+            }
+        } 
+    }
+A) 9	
+B) 8
+C) Compilation Error	
+D) Runtime Error
+
+
+
+
+
+
+
+
+
+
+Q.3. What is the output of this program?
+class selection_statements {
+        public static void main(String args[])
+        {
+            int var1 = 5; 
+            int var2 = 6;
+            if ((var2 = 1) == var1)
+                System.out.print(var2);
+            else 
+                System.out.print(++var2);
+        } 
+    }
+A) 1	
+B) 2
+C) 3	
+D) 4
+
+
+
+
+
+
+
+
+
+
+Q.4. What is the output of this program?
+class array_output {
+        public static void main(String args[]) 
+        {
+            int array_variable [] = new int[10];
+	    for (int i = 0; i < 10; ++i) {
+                array_variable[i] = i;
+                System.out.print(array_variable[i] + " ");
+                i++;
+            }
+        } 
+    }
+A) 0 2 4 6 8	
+B) 1 3 5 7 9
+C) 0 1 2 3 4 5 6 7 8 9	
+D) 1 2 3 4 5 6 7 8 9 10
+
+
+
+
+
+
+
+
+
+
+Q.5. Which is true?
+A) "X extends Y" is correct if and only if X is a class and Y is an interface.
+B) "X extends Y" is correct if and only if X is a interface and Y is a class.
+C) "X extends Y" is correct if X and Y are either both classes or both interface.
+D) "X extends Y" is correct for all combinations of X and Y being classes and/or interfaces.
+
+
+
+
+
+
+
+
+
+
+
+Q.1. What will be the output of the following code?
+    class Test {
+      public static void main(String[] args)
+      {
+        double d = 100.04;  
+        float f = d;	
+        System.out.println("Float value "+f);
+      }
+    }
+A) 100.04	
+B) 100.0
+C) Compilation Error (lossy conversion from double to float)	
+D) 100
+
+
+
+
+
+
+
+
+
+
+Q.2. How many times will “Chitkara” be printed.
+Int count = 0;
+do{
+  System.out.println(“Chitkara”);
+  count++;
+} while(count < 10);
+A) 10
+B) 9
+C)  8
+D) 11
+
+
+
+
+
+
+
+
+
+
+Q.3. Find the output of the following code.
+if(1 + 1 + 1 + 1 + 1 == 5){
+  System.out.print(“TRUE”);
+}
+else{
+  System.out.print(“FALSE”);
+}
+A) TRUE
+B) FALSE
+C) Compile error
+D) None
+
+
+
+
+
+
+
+
+
+
+Q.4. Identify the output of the following program.
+class Test{
+          Public static void main(String argos[]){
+                   String str1 = “ten”;
+                   String str2 = “eleven”;
+                   System.out.println(str1.concat(str2));
+          }
+}
+A) ten
+B) eleven
+C) teneleven
+D) eleventen
+
+
+
+
+
+
+
+
+
+
+Q.5. Find the output of the following code.
+int Integer = 24;
+char String  = ‘I’;
+System.out.print(Integer);
+System.out.print(String);
+A) Compile error
+B) Throws exception
+C) I
+D) 24 I

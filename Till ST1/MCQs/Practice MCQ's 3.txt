@@ -1,0 +1,572 @@
+1.  How many numbers of primitive data types are 
+there in Java?
+A) 4
+B) 8
+C) 10
+D) None of the above
+
+
+
+
+
+
+
+
+Q.2. When an array is passed to a method, the 
+method 
+receives?
+A) Length of the array
+B) A copy of the array
+C) The reference of the array
+D) Copy of first element
+
+
+
+
+
+
+
+
+Q.3. What will be the return type of a method that 
+does not return any value.
+A) int
+B) void
+C) double
+D) None
+
+
+
+
+
+
+
+
+Q.4. The finalize() method is called,
+A) Before garbage collection
+B) Before an object goes out of scope
+C) Before a variable goes out of scope
+D) None
+
+
+
+
+
+
+Q.5. Which of the following is incorrect about 
+features of Java?
+A) Object oriented
+B) Use of pointers
+C) Dynamic
+D) Architectural neutral
+
+
+
+
+
+
+
+Q.6.In the following Array declaration, which 
+expression returns the output as 5?
+int [] arr = { 23, 5, 78, 34, 2};
+A) arr.length()	
+B) arr[].length()
+C) arr[].length	
+D) arr.length
+
+
+
+
+
+
+Q.7. Which statement does not create an object of 
+class Student{} ?
+A) new Student();
+B) Student s1 = new Student(), s2 = new Student();
+C) Student s1;
+D) Student ss = new Student();
+
+
+
+
+
+
+
+Q.8. Which operator is used to check object-type at 
+runtime?
+A) ternary operator	
+B) instanceof operator
+C) type operator	
+D) length operator
+
+
+
+
+
+
+
+
+Q.9. Multiple inheritance is not supported in Java 
+because?
+A) To remove ambiguity and provide more 
+      maintainable and clear design.
+B) Java is a Object oriented language.
+C) Multiple inheritance is not an important feature.
+D) All of above
+
+
+
+
+
+
+
+
+Q.10. Which statement is true about Java?
+A) Java is a sequence-dependent programming 
+language
+B) Java is a code dependent programming 
+language
+C) Java is a platform-dependent programming 
+language
+D) Java is a platform-independent programming 
+language
+
+
+
+
+
+
+
+
+Q.1. Which of these statement is incorrect?
+A) Every class must contain a main() method
+B) Applets do not require a main() method at all
+C) There can be only one main() method in a program
+D) main() method must be made public
+
+
+
+
+
+
+
+Q.2. What is the extension of java code files?
+A) .js
+B) .txt
+C .class
+D) .java
+
+
+
+
+
+
+Q.3. Which of these is an incorrect Statement?
+A) It is necessary to use new operator to initialize 
+     an array
+B) Array can be initialized using comma separated 
+     expressions surrounded by curly braces
+C) Array can be initialized when they are declared
+D) None of the mentioned
+
+
+
+
+
+
+Q.4. Which of these is returned by “greater than”, 
+“less than” and “equal to” operators?
+A) Integers
+B) Floating – point numbers
+C) Boolean
+D) None of the mentioned
+
+
+
+
+
+
+
+Q.5. Which of these statements is correct?
+A) true and false are numeric values 1 and 0
+B) true and false are numeric values 0 and 1
+C) true is any non zero value and false is 0
+D) true and false are non numeric values
+
+
+
+
+
+
+
+Q.6. What is the value stored in x in the following lines of Java code?
+   int x, y, z;
+    x = 0;
+    y = 1;
+    x = y = z = 8;
+A) 0
+B) 1
+C) 9
+D) 8
+
+
+
+
+
+
+
+
+
+
+
+Q.7. Which of the following loops will execute the 
+body of loop even when condition controlling the loop 
+is initially false?
+A) do-while
+B) while
+C) for
+D) none of the mentioned
+
+
+
+
+
+
+
+Q.8. Which of this method is given parameter via 
+command line arguments?
+A) main()
+B) recursive() method
+C) Any method
+D) System defined methods
+
+
+
+
+
+
+
+
+Q.9. How many arguments can be passed to main()?
+A) Infinite
+B) Only 1
+C) System Dependent
+D) None of the mentioned
+
+
+
+
+
+
+
+
+
+
+Q.10. Which of the following is a method having same 
+name as that of it’s class?
+A) finalize
+B) delete
+C) class
+D) constructor
+
+
+
+
+
+
+
+
+
+
+
+Q.1.The size of float and double in java is ________.
+A) 64 and 64
+B) 32 and 32
+C) 32 and 64
+D) 64 and 32
+
+
+
+
+
+
+
+
+
+
+
+Q.2. Select the valid declaration and initialization of an array in JAVA.
+A) int[] A = {}
+B) int[] A = {1, 2, 3}
+C) int[] A = (1, 2, 3)
+D) int[][] A = {1,2,3} 
+
+
+
+
+
+
+
+
+
+
+
+Q.3. The system stores parameters and local variables in ________whenever a method is invoked.
+A) Heap
+B) Stack
+C) Array
+D) Tree
+
+
+
+
+
+
+
+
+
+
+Q.4. Identify the infinite loop.
+A) for(; ;)
+B) for(int i = 0; i < 1; i--)
+C) for(int i = 0; ;i++)
+D) All of the above
+
+
+
+
+
+
+
+
+
+
+Q.5. Which of the following Array declaration is illegal?
+A) int [ ] a [ ] = new int [4] [4];	
+B) int a[ ][ ] = new int [4] [4];
+C) int a[ ] [ ] = new int [ ] [4];	
+D) int [ ] a [ ] = new int [4] [ ];
+
+
+
+
+
+
+
+
+
+
+Q.6. Two methods are said to be overloaded if they have,
+A) same name and same number of parameter but different return type.
+B) they have same name.
+C) they have different name but same number of arguments.
+D) have same name but different parameters.
+
+
+
+
+
+
+
+
+
+
+Q.7. Garbage Collection in java is done by whom?
+A) Java Compiler	
+B) Object class
+C) JVM	
+D) System class
+
+
+
+
+
+
+
+
+
+
+Q.8. Argument passed to a program at the run time is stored in __________.
+A) String array passed to the parameter of main() method.
+B) Integer array passed to the parameter of main() method.
+C) Object array passed to the parameter of main() method.
+D) String array passed to the parameter of public class constructor.
+
+
+
+
+
+
+
+
+
+
+Q.9. Who invented Java Programming?
+A) Guido van Rossum
+B) James Gosling
+C) Dennis Ritchie
+D) Bjarne Stroustrup
+
+
+
+
+
+
+
+
+
+
+Q.10. Which component is used to compile, debug and execute the java programs?
+A) JRE
+B) JIT
+C) JDK
+D) JVM
+
+
+
+
+
+
+
+
+
+
+Q.1. Which of the following is a valid declaration of an object of class Box?
+A) Box obj = new Box();
+B) Box obj = new Box;
+C) obj = new Box();
+D) new Box obj;
+
+
+
+
+
+
+
+
+
+
+Q.2. Which of these cannot be used for a variable name in Java?
+A) identifier & keyword
+B) identifier
+C) keyword
+D) none of the mentioned
+
+
+
+
+
+
+
+
+
+
+Q.3. Which of these operators is used to allocate memory to array variable in Java?
+A) malloc
+B) alloc
+C) new
+D) new malloc
+
+
+
+
+
+
+
+
+
+
+Q.4. Which of these is necessary to specify at time of array initialization?
+A) Row
+B) Column
+C) Both Row and Column
+D) None of the mentioned
+
+
+
+
+
+
+
+
+
+
+Q.5. Which of these operators can skip evaluating right hand operand?
+A) !
+B) |
+C) &
+D) &&
+
+
+
+
+
+
+
+
+
+
+Q.6. Which of these have highest precedence?
+A) ()
+B) ++
+C) *
+D) >>
+
+
+
+
+
+
+
+
+
+
+Q.7. Which of these statements are incorrect?
+A) Equal to operator has least precedence
+B) Brackets () have highest precedence
+C) Division operator, /, has higher precedence than multiplication operator
+D) Addition operator, +, and subtraction operator have equal precedence
+
+
+
+
+
+
+
+
+
+
+Q.8. When does method overloading is determined?
+A) At run time
+B) At compile time
+C) At coding time
+D) At execution time
+
+
+
+
+
+
+
+
+
+
+Q.9. Which of these data types is used to store command line arguments?
+A) Array
+B) Stack
+C) String
+D) Integer
+
+
+
+
+
+
+
+
+
+
+Q.10. Can command line arguments be converted into int automatically if required?
+A) Yes
+B) No
+C) Compiler Dependent
+D) Only ASCII characters can be converted
