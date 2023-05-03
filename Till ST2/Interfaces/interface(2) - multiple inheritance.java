@@ -1,7 +1,7 @@
 // achieving multiple inheritance using Interfaces
 
 interface Movable{
-    public boolean isMovable();
+    public boolean isMovable();  // even if we remove this public, then also it will work because in the below class, white writing the body of this method, we have alredy used 'public'
 }
 
 interface Rollable{
