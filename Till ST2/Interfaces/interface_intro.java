@@ -7,5 +7,10 @@
   - all methods declared inside this are implicitely public and abstract 
   - interface can extend oe or more other interface.
   - it can not implement the class 
+  - interface can inherit another interface using 'extends' 
+
+  - abstract classes may or may not contain body of method, but in interface there must not be body, only declaration.
+  - Through Classes in java doesn't support multiple inheritance, but a class can implement more then one interfaces
+  
 
  */
