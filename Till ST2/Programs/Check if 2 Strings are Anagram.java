@@ -1,21 +1,19 @@
-import java.lang.reflect.Array;
+// import java.lang.reflect.Array;
 import java.util.*;
 
 // check if 2 strings are anagrams or not.
-
-// 2 strings are anagram if both have same characters with same freq
 
 public class StrToken3 {
 
     public static void main(String ... args){
 
-        String a = "abcdef";
+        String a = "abcdef";   // anagram  (all characters have same frequencies)
         String b = "fedcba";
 
-        a = "Demo";
+        a = "Demo";  // not anagram ('D' is diff from 'd')
         b = "Mode";
 
-        // convert string into character arrays
+        // convert string into character arrays  
         char aArr[] = a.toCharArray(); 
         char bArr[] = b.toCharArray(); 
 
@@ -32,5 +30,6 @@ public class StrToken3 {
             System.out.println("Anagram");
         else System.out.println("not anagram");
     }
-    
 }
+
+
