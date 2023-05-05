@@ -11,6 +11,17 @@
     - 1. StringBuffer();   - stores 14 characters space for itslelf 
     - 2. StringBuffer(int size);    
     - 3. StringBuffer(String str);
-    - 4. StringBuffer(charSequence[] ch); 
+    - StringBuffer(charSequence[] ch); 
+
+  Method1 : s.append()  
+  Method2 : s.insert(index, "hello"); insert hello at the specified index of string  's'
+  Method3 : s.reverse()
+  Method4 : s.replace(startIndex, endIndex, "java");
   
-*/
+ */
+
+class StringBufferMain{
+
+    
+
+}
