@@ -3,6 +3,8 @@ import java.util.*;
 
 // check if 2 strings are anagrams or not.
 
+// 2 strings are anagram if both have same characters with same freq
+
 public class StrToken3 {
 
     public static void main(String ... args){
