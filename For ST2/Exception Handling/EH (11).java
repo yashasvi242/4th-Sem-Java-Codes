@@ -1,3 +1,4 @@
+// if we want out prog to excute from the very next line of exception, then put the try-catch in a new function like shown below.
 
 class Demo{
     public static void checkNum(int num){
