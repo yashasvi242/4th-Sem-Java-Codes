@@ -8,7 +8,7 @@ public class MyThreadDemo{
 
     public static void main(String ... args){
         MyThread mt = new MyThread(); // created our own obj which will only have a .run() in it
-        Thread t = new Thread(mt); // now 'Thread' is the main class and it already has a .run() (which is present in mt) we will pass 'mt' objext as the argument 
+        Thread t = new Thread(mt); // now 'Thread' is the main class and it already has a .run() (which is present in mt) we will pass 'mt' objext as the argument because we can not start this MyThread as it does have a .start() in it 
         t.start();
         t.run();
     }
