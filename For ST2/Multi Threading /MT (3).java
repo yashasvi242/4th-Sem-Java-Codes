@@ -1,6 +1,6 @@
 
 class MyThread implements Runnable{
-    public void run(){
+    public void run(){ // we know that in interfaces we only declare the method only (without body), that why we are overwritting the run() method of Runnable interface, with out own content.
         System.out.println("concurrent thread started running...");
     }
 }
