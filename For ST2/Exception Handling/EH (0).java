@@ -4,8 +4,7 @@
      If we do not habdke the exceptions, it leads to unexpected program terminaltion.
 
      Default Exception - JVM
-
-        1. Uncaught Exception 
+     
 
         Types of Exceptions :- 
             1. Checked Exception  - at compile time
