@@ -35,3 +35,5 @@ class Demo{
 
 // Output :- 
 // My Exception[-10] is less then ZERO
+
+// note : in this eg. we overwrite the toString function, thats why the class name was not printed.
