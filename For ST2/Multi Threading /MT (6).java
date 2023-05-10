@@ -29,7 +29,10 @@ public class MyThread extends Thread{
         t2.start();//2.
 
         // 1,2 will invoke both the threads simultaneously (not one by one)
+       // note :- if we called .run() rather then start then it will become single tasking, i.e both calls will be one by one and not simultaneously
+
     }
+    
 
 }
 /*
