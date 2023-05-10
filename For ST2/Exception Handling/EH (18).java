@@ -1,4 +1,3 @@
-
 class ItemNotFound extends Exception{
 
     public ItemNotFound(String s){
@@ -34,3 +33,10 @@ class Demo1{
 }
 
 // ItemNotFound: Item Not Found
+
+
+// note : in this the 'ItemNotFound' is class name and it is printed because we did not overwrite the toString function, so by default the original 'Exception's to string is printed, in which 'getName()' method is defined,
+// which will print the 'class Name' by default first, and then the content of the string 
+
+
+ 
