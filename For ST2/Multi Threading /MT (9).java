@@ -39,4 +39,5 @@ r1
 r2
 r2
 
+note : using .sleep() we are pausing t1 so that only t2 runs for that 1 sec pause 
  */
