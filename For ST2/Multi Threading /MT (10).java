@@ -25,6 +25,8 @@ public class MyThread2 extends Thread {
 }
 /*
 
+note : using pause (sleep) we can guess the output, otherwise we can not 
+
 Output :- 
 
 r1
