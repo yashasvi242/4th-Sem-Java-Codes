@@ -63,6 +63,52 @@ public class ReverseString {
 }
 
 ```
+##### ⭐[Best] Approach-2 (using string tokenizer)
 
-##### Approach-2 (using string tokenizer)
+```java
+import java.util.*;
 
+/* Reverse a sentence in unique way :- 
+    Input : "hellow how are you?"
+    Output : wolleh woh era ?uoy 
+ */
+
+ // Approach - 2 (using string tokenizer)
+
+public class ReverseString2 {
+
+    static String revString(String str){
+
+        String reversedString = "";
+        int i = str.length()-1;
+        while(i >= 0){
+            reversedString += str.charAt(i);
+            i--;
+        }
+        return reversedString;
+    }
+
+    public static void main(String ... args){
+
+        System.out.println("------------------------");
+        Scanner scn = new Scanner(System.in);
+
+        System.out.print("Enter a sentence : ");
+        String sentence = scn.nextLine(); // "Hello how are you?"
+
+        StringTokenizer tokenObj = new StringTokenizer(sentence, " ");
+
+        while(tokenObj.hasMoreTokens()){
+            String word = tokenObj.nextToken();
+            String reveredstring = revString(word);
+            System.out.print(reveredstring + " ");
+        }
+
+        System.out.println("\n------------------------");
+    }
+
+    
+
+}
+
+```
