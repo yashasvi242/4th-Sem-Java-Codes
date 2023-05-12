@@ -77,6 +77,7 @@ import java.util.*;
 
 public class ReverseString2 {
 
+    // function to reverse a string
     static String revString(String str){
 
         String reversedString = "";
@@ -96,11 +97,11 @@ public class ReverseString2 {
         System.out.print("Enter a sentence : ");
         String sentence = scn.nextLine(); // "Hello how are you?"
 
-        StringTokenizer tokenObj = new StringTokenizer(sentence, " ");
+        StringTokenizer tokenObj = new StringTokenizer(sentence, " "); // split the string on basis of 'spaces'
 
-        while(tokenObj.hasMoreTokens()){
-            String word = tokenObj.nextToken();
-            String reveredstring = revString(word);
+        while(tokenObj.hasMoreTokens()){ // loop while the tokenObj is not empty
+            String word = tokenObj.nextToken();  // fetch each word from tokenObj
+            String reveredstring = revString(word); // reverse it
             System.out.print(reveredstring + " ");
         }
 
