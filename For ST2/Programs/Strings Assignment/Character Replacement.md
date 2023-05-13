@@ -1,4 +1,4 @@
-// Replace character 'c1' present in string with a character 'c2' in 'str'
+### Replace character 'c1' present in string with a character 'c2' in 'str'
  
  ```java
 input:- 
