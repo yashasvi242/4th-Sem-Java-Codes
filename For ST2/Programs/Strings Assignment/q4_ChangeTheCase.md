@@ -3,6 +3,8 @@
 Input : HELLOW
 output : hellow
 
+Input : ABC DEG IMJ
+output : abc deg imj
 ```
 
 ### Approach - 1 (using asci)
