@@ -6,8 +6,29 @@ output : hellow
 Input : ABC DEG IMJ
 output : abc deg imj
 ```
+### Approach - 1 (using .toLowerCase() only)
+```java
+import java.util.*;
 
-### Approach - 1 (using asci)
+public class ChangeTheCase {
+
+    // change upper case string to lower case 
+    public static void main(String ... args){
+
+        // input
+        Scanner scn = new Scanner(System.in);
+        System.out.print("Enter string in upper case : ");
+        String str = scn.nextLine(); // coz input can be "ABC DEF IJK"
+ 
+        System.out.println(str.toLowerCase());
+
+
+    }
+    
+}
+
+```
+### Approach - 2 (using asci)
 ```java
 import java.util.*;
 
@@ -18,7 +39,7 @@ public class ChangeTheCase {
     // upper to lower (96-65) => 31 
     // A + 31 => a
 
-    // Approach - 1 (using asci)
+    // Approach - 2 (using asci)
 
     // change upper case string to lower case 
     public static void main(String ... args){
@@ -47,13 +68,13 @@ public class ChangeTheCase {
 
 ```
 ------
-### Approach - 2 (using string tokeizer & .toLowerCase())
+### Approach - 3 (using string tokeizer & .toLowerCase())
 ```java
 import java.util.*;
 
 public class ChangeTheCase {
 
-    // Approach -2 (using tokenizer & toUpperCase)
+    // Approach -3 (using tokenizer & toUpperCase)
     
     public static void main(String ... args){
 
