@@ -46,3 +46,35 @@ public class ChangeTheCase {
 }
 
 ```
+------
+### Approach - 2 (using string tokeizer & .toLowerCase())
+```java
+import java.util.*;
+
+public class ChangeTheCase {
+
+    // Approach -2 (using tokenizer & toUpperCase)
+    
+    public static void main(String ... args){
+
+        // input
+        Scanner scn = new Scanner(System.in);
+        System.out.print("Enter string in upper case : ");
+        String str = scn.nextLine(); // coz input can be "ABC DEF IJK"
+ 
+        // algo
+        StringTokenizer tokenObj = new StringTokenizer(str, " ");
+
+        while(tokenObj.hasMoreTokens()){
+            String word = tokenObj.nextToken();
+            String newWord = word.toLowerCase(); // convert word to lower case
+            
+            System.out.print(newWord + " ");
+        }
+
+
+    }
+    
+}
+
+```
