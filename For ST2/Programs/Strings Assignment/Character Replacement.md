@@ -56,6 +56,44 @@ public class CharacterReplacement {
 ### Approach - 2 (using character array)
 
 ```java
+import java.util.*;
+
+// Q2. Replace Character 
+
+
+// Approach - 1 (generating new string)
+
+public class CharacterReplacement2 {
+    
+    public static void main(String ... args) {
+
+        // input 
+        Scanner scn = new Scanner(System.in);
+        System.out.print("Enter string : ");
+        String str = scn.next();
+        System.out.print("Enter character 1 : ");
+        char ch1 = scn.next().charAt(0);
+        System.out.print("Enter character 2 : ");
+        char ch2 = scn.next().charAt(0);
+
+        // replace ch1 with ch2 in 'str'
+        // himachal (replace a with A)
+     
+        // Approach - 2
+        char chArr[] = str.toCharArray(); // convert str to chacter array, then replace the ch 
+        
+        for(int i=0; i < chArr.length; i++){
+            if(chArr[i] == ch1)
+                chArr[i] = ch2;
+        }   
+
+        String outputString = String.valueOf(chArr); // ones replaced, convert back charArray to string 
+
+        System.out.println("Output :- " + outputString);
+        
+        
+    }
+}
 
 
 ```
