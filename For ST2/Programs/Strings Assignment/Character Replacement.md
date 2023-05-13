@@ -61,7 +61,7 @@ import java.util.*;
 // Q2. Replace Character 
 
 
-// Approach - 1 (generating new string)
+ // Approach - 2 (using character array)
 
 public class CharacterReplacement2 {
     
@@ -79,7 +79,6 @@ public class CharacterReplacement2 {
         // replace ch1 with ch2 in 'str'
         // himachal (replace a with A)
      
-        // Approach - 2
         char chArr[] = str.toCharArray(); // convert str to chacter array, then replace the ch 
         
         for(int i=0; i < chArr.length; i++){
