@@ -18,6 +18,7 @@ public class TrimSpaces3 {
         System.out.print("Enter sentence : ");
         String sentence = scn.nextLine();
         
+        //algo
         StringTokenizer tokenObj = new StringTokenizer(sentence," "); // split sentence on basis of space
         
         String newString = "";
