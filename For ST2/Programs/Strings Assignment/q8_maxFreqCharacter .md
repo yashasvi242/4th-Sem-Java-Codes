@@ -37,10 +37,45 @@ public class HighestOccurringCharacter {
 
         System.out.println("max Freq character : " + maxFreqChar);
         System.out.println("max Freq : " + maxFreq);
+    }   
+}
+```
 
-        
+### approach - 2 (no extra space )
+$Time : O(n^2)$
+```java
+import java.util.*;
+public class HighestOccurringCharacter {
+
+    // Q9. Highest Occuring Character 
+    
+    public static void main(String ... args){
+
+        // input 
+        Scanner scn = new Scanner(System.in);
+        System.out.println("Enter string : ");
+        String str = scn.next();
+
+        int maxFreq = Integer.MIN_VALUE;
+        char maxFreqChar = ' ';
+        for(int i=0; i < str.length(); i++){
+            char currChar = str.charAt(i);
+            int currFreq = 0;
+            for(int j=0; j < str.length(); j++){
+                if(str.charAt(j) == currChar)
+                    currFreq++;
+            }
+
+            if(currFreq > maxFreq){
+                maxFreq = currFreq;
+                maxFreqChar = currChar;
+            }
+        }
+
+        System.out.println("Output : " + maxFreqChar);
     }
     
 }
 
 ```
+
