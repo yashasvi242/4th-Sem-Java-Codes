@@ -58,7 +58,10 @@ import java.lang.*;
             
             4. length()  - number of char in the string (includes spaces)
             5. str.replace(oldChar, newChar) 
-            6. str.substring()
+            
+            6. str.substring(startIndex, endIndex)
+                start index inclusive, end index exclusive 
+                
             7. str.toLowerCase();
             8. str.toUpperCase();
             9. str.valueOf() 
