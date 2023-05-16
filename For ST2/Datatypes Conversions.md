@@ -19,4 +19,19 @@ String str = new String(a);
 
 String str1 = String.valueOf(a);
 ```
+#### String to int 
+```java
+String str = "1234"
+int num = Integer.valueOf(str);
+      OR 
+int num2 = Integer.parseInt(str);
 
+```
+### Imp Asci ranges 
+```java
+
+A-Z (65-90) 
+a-z (97-128)
+to 9 (49-57)
+
+```
