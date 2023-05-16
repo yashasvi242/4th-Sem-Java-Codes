@@ -58,6 +58,48 @@ sorted arr : 10 11 12 13 14 16 17 18 19
  */
 ```
 
+## HashMap
+```java
+import java.util.*;
+
+public class TryingMap {
+
+    // H A S H M A P S
+
+    public static void main(String ... args){
+
+        HashMap<Integer,Integer> simpleMap = new HashMap<Integer,Integer>();
+
+        // insertion in map
+        simpleMap.put(1,100);
+        simpleMap.put(2,200);
+        simpleMap.put(3,300);
+        simpleMap.put(4,400);
+
+        // iterating on map 
+        for(Map.Entry block:simpleMap.entrySet()){
+            System.out.println("key : " + block.getKey() + " Value : " + block.getValue());
+        }
+
+        System.out.println("map has key 1 ? " + simpleMap.containsKey(1));
+        System.out.println("map has key 10 ? " + simpleMap.containsKey(10));
+    }
+
+}
+/*
+    Output:- 
+
+key : 1 Value : 100
+key : 2 Value : 200
+key : 3 Value : 300
+key : 4 Value : 400
+map has key 1 ? true
+map has key 10 ? false
+
+ */
+
+```
+
 ## Imp 'Character' class methods 
 ```java
 1	isLetter()
