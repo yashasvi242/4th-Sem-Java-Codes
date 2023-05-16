@@ -2,8 +2,10 @@ public class CompanyTag {
     
     /* Create a tag for each 'string' 
      
-        input : electronics
-        out : letois
+        input : "helloworld"
+        output : "hlwrl"
+        input : "electronics"
+        out : "letois"
 
         explanation : (el)(ec)(tr)(on)(ic)s
 
