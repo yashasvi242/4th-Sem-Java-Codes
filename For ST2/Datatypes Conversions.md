@@ -27,11 +27,11 @@ int num = Integer.valueOf(str);
 int num2 = Integer.parseInt(str);
 
 ```
-### Imp Asci ranges 
+#### Imp Asci ranges 
 ```java
 
 A-Z (65-90) 
 a-z (97-128)
-to 9 (49-57)
+0 to 9 (49-57)    or use Character.isDigit(ch)
 
 ```
