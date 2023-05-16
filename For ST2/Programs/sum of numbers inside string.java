@@ -33,7 +33,7 @@ public class StringSum {
         for(int i=0; i < str.length(); i++){
 
             char ch = str.charAt(i);
-            boolean isInt = (ch >= 49 && ch <= 57);
+            boolean isInt = (ch >= 49 && ch <= 57);    // (or use Character.isDigit(ch) - checks if a character is digit or not)
 
             // if we get a int character then, add it to out 'strInt'
             if(isInt){
