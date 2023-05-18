@@ -34,7 +34,7 @@ import java.lang.*;
 
             here 2 objects are created, but s2 is a reference to object 's1'.
 
-            if we change s1's data then s2's data will also change, but if we change s2's data, s1 data will not change and a new object (not reference) for s2 will be created
+            if we change s1's data then s2's data will not change,rather s1 will point to a new block with new data and s2 will point to the old data only, and both will have different memory in string pools for their data 
 
     
         - int can take ony int 
