@@ -104,6 +104,10 @@ import java.lang.*;
                     eg. str.join(":","9","10","11") ===> 9:10:11
                     eg. str.join(":","9","10","11") ===> 9:10:11
                     eg. str.join(":","hello hi") ===> hello hi
+                    
+             20. .split() -> used to split a multi word string on basis of a regex eg. space " " and store the words into an array 
+                    
+                    String arr[] = str.split() 
 
  */
 class StringsIntro{
