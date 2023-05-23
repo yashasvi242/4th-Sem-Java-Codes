@@ -1,4 +1,4 @@
- import java.util.*;
+import java.util.*;
 /*
     ArrayList 
     ---------
@@ -7,6 +7,8 @@
     .remove(index)
     .indexOf(ele) - first occ
     .lastIndexOf(ele) - last occ
+    .addAll() - insert all elements of arr1 into arr2   [eg. arr2.addAll(arr1)]
+
 */
 
 class Demo{
@@ -37,6 +39,18 @@ class Demo{
 
         System.out.println("\n 1st occ of 50 is at index : " + arr.indexOf(50));
         System.out.println("last occ of 50 is at index : " + arr.lastIndexOf(50));
+
+        // inserting complete arr into arr2
+        ArrayList<Integer> arr2 = new ArrayList<>();
+        arr2.add(-1);
+        arr2.add(-2);
+        arr2.addAll(arr);
+
+        System.out.print("arr2 :- ");
+        System.out.println(arr2);
+
+        // 
+
     }
 }
 
@@ -48,5 +62,6 @@ printing array elements 1 by 1
 [10, 30, 40, 50, 50, 50, 16]
  1st occ of 50 is at index : 3
 last occ of 50 is at index : 5
+arr2 :- [-1, -2, 10, 30, 40, 50, 50, 50, 16]
 
  */
