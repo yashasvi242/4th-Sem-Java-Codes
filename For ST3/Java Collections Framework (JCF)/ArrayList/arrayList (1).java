@@ -4,7 +4,8 @@ import java.util.*;
     ---------
 
     .get(index)
-    .remove(index)
+    .remove(index) - removes ele at specific index
+    .removeAll(element) - removes all occurences of a element
     .indexOf(ele) - first occ
     .lastIndexOf(ele) - last occ
     .addAll() - insert all elements of arr1 into arr2   [eg. arr2.addAll(arr1)]
