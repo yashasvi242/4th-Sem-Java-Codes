@@ -6,6 +6,7 @@ import java.util.*;
     - .size()
     - .addElement() / .add()
     - .firstElement()/ .lastElement()
+    - .remove()
  */
 
 public class VecEx1 {
@@ -35,15 +36,28 @@ public class VecEx1 {
         // get first element, get the last element
         System.out.println("The first animal : " + vec.firstElement());
         System.out.println("The last animal : " + vec.lastElement());
+
+        // remove element at index
+        vec.remove(0); 
+        System.out.println(vec);
+
+        // remove element 
+        vec.remove("Elephant");
+        System.out.println(vec);
+
     }
     
 }
 
 /*
+
 Capacity : 4
 size : 4
 [Tiger, Lion, Dog, Elephant]
 Tiger is present at index : 0
 The first animal : Tiger
 The last animal : Elephant
+[Lion, Dog, Elephant]
+[Lion, Dog]
+
  */
