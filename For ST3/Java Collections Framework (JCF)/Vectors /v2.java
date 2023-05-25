@@ -6,7 +6,9 @@ import java.util.*;
     - .size()
     - .addElement() / .add()
     - .firstElement()/ .lastElement()
-    - .remove()
+    - .remove(index)  / .removeElementAt(index)
+    - .remove(element) 
+    
  */
 
 public class VecEx1 {
@@ -16,6 +18,9 @@ public class VecEx1 {
         Vector<String> vec = new Vector<String>(4);
 
         vec.add("Tiger");
+        vec.add("Lion");
+        vec.add("Lion");
+        vec.add("Bat");
         vec.add("Lion");
         vec.add("Dog");
         vec.add("Elephant");
@@ -41,10 +46,9 @@ public class VecEx1 {
         vec.remove(0); 
         System.out.println(vec);
 
-        // remove element 
-        vec.remove("Elephant");
+        // remove 1st occurrence of an element 
+        vec.remove("Lion");
         System.out.println(vec);
-
     }
     
 }
