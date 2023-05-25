@@ -49,6 +49,11 @@ public class VecEx1 {
         // remove 1st occurrence of an element 
         vec.remove("Lion");
         System.out.println(vec);
+     
+     
+        // hash code
+        System.out.print("HashCode : " + vec.hashCode());
+    
     }
     
 }
@@ -63,5 +68,5 @@ The first animal : Tiger
 The last animal : Elephant
 [Lion, Dog, Elephant]
 [Lion, Dog]
-
+HashCode : 1341336983
  */
