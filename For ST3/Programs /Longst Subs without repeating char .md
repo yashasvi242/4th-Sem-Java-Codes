@@ -1,5 +1,7 @@
 ## Longest Substring without repeating char
 
+[Que leetcode Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/description)
+
 input /output 
 
 ![image](https://github.com/yashasvi242/4th-Sem-Java-Codes/assets/124666305/d77e0655-4ad7-4631-9212-c6a85b707e75)
