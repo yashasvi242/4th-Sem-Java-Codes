@@ -4,7 +4,19 @@ class Maps{
 
     // HashMap Extends AbstractMap and implements Map interface 
     // it is non sequential (data can print in any order)
+    /* imp functions 
+        - map.get(key)    returns value 
+        - map.size()
+        - map.isEmpty()
+        - map.containsKey(key)    returns boolean (i.e somewhat alternative of map.find() of cpp) 
+        - map.put(key, value)
+        - map2.putAll(map1)
+        - map.remove(key)
+        - map.clear()
+        - map.containsValue(value)    returns boolean
+        
 
+    */
     public static void main(String ... args){
 
         Map<String,Integer> hm = new HashMap<>();
