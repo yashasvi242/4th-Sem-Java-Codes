@@ -7,6 +7,7 @@ import java.util.*;
 
 // .add()
 // .size()
+// .contains(key) --> returns true if yes
 
 public class Q2 {
 
