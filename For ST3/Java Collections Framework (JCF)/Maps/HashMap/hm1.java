@@ -23,18 +23,27 @@ class Maps{
 
         hm.put("aniket", 100);
         hm.put("bablu", 200);
-        hm.put("chintu", 300);
+        hm.put("chintu", 300); // inserting value into a map
         hm.put("dany", 400);
         hm.put("nikhil", 500);
         hm.put("sweta", 600);
 
         Set<Map.Entry<String,Integer>> st = hm.entrySet(); // creating a set from maps data so that we can iterate over the set 
-
         
-        for(Map.Entry<String,Integer> me:st){  // iterating overt the set and printing key-value pairs
-            System.out.print(me.getKey() + " : ");
+        // method -1 (using set)
+        for(Map.Entry<String,Integer> me:st){  // iterating overt the set and printing key-value pairs 
+            System.out.print(me.getKey() + " : ");    
             System.out.println(me.getValue());
         }
+        
+        // method -2 (without using set)
+        
+        for(String key:hm.keySet()){
+            int value = hm.get(key);
+            System.out.print(key + " : " + value);
+        }
+
+        */
     }
 }
 /*
