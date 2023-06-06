@@ -32,6 +32,6 @@ int num2 = Integer.parseInt(str);
 
 A-Z (65-90) 
 a-z (97-128)
-0 to 9 (49-57)    or use Character.isDigit(ch)
+0 to 9 (48-57)    or use Character.isDigit(ch)
 
 ```
