@@ -4,7 +4,7 @@ import java.lang.*;
     - Strings are immutable (but can be muted using string buffer)
 
   - String is an object that represents sequence of characters.
-  - java.lang packages
+  - java.lang packages (do not need to import it)
   - every string we create in java is an object of type String
   - string obj are immutable i.e we can not change its state, i.e conversion from string to int will be stored in a new integer, but the original string remains the same
   - Creating string :- 
