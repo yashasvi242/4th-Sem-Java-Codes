@@ -3,6 +3,7 @@ import java.util.*;
     ArrayList 
     ---------
 
+    .add(element)
     .get(index)
     .remove(index) - removes ele at specific index
     .removeAll(element) - removes all occurences of a element
