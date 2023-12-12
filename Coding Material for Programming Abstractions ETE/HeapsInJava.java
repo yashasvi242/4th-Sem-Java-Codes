@@ -20,3 +20,18 @@ public class Main
 		System.out.println("minHeap : " + minHeap);
 	}
 }
+
+/* 
+maxHeap : [15, 14, 12, 10, 13]
+	15
+       /  \
+      14   12
+     / \ 
+    10  13
+minHeap : [10, 13, 12, 15, 14]
+	10
+       /  \
+      13   12
+     / \ 
+    15  14
+*/
